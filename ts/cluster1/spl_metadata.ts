@@ -10,7 +10,7 @@ import { createSignerFromKeypair, signerIdentity, publicKey } from "@metaplex-fo
 import bs58 from "bs58"
 
 // Define our Mint address
-const mint = publicKey("2YXY6ZMH4YKSQ3ZraD7zmmiwruq2fXcMJj58HoJuQvPn")
+const mint = publicKey("HCuozBZzggB6qjBbYZWfEoQ7USYFKeauY5Awg4mgirM8")
 
 // Create a UMI connection
 const umi = createUmi('https://api.devnet.solana.com');
@@ -28,7 +28,7 @@ umi.use(signerIdentity(createSignerFromKeypair(umi, keypair)));
 
 
         let data: DataV2Args = {
-            name: "Seba token",
+            name: "Sebatustra V3",
             symbol: "ST",
             uri: "",
             sellerFeeBasisPoints: 0,
